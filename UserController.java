@@ -21,6 +21,7 @@ public class UserController{
 		return "user/update";
 	}
 	
+	//일단 진행
 	//회원삭제 페이지로 이동
 	@RequestMapping("/user/delete.do")
 	public String delete(){
